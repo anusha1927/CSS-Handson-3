@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: gray;
+}
+hr {
+	border: 0;
+	border-top: 1px solid white;
+	margin: 5px 0px;
+}
+.flexcon {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container1 {
+	border: 5px solid green;
+	height: 700px;
+	position: relative;
+}
+
+.box {
+	border: 5px solid red;
+	border-radius: 10px;
+	box-shadow: 5px 5px purple;
+	background-color: white;
+	text-align: center;
+	font: normal normal bold large Times;
+	text-shadow: 1px 1px 2px indigo;
+}
+.boxfixed {
+	width: 400px;
+	height: 68px;
+	background-color: greenyellow;
+	color: maroon;
+	font-style: italic;
+	position: fixed;
+	bottom: 50px;
+	left: 475px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 5px;
+}
+.box1 {
+	width: 500px;
+	height: 150px;
+	color: #9d093b;
+	font-style: italic;
+	font-size: 31px;
+	padding: 10px;
+}
+#rate {
+	text-align: center;
+}
+button {
+	background-color: crimson;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 4px;
+}
+.box2 {
+	height: 300px;
+	width: 300px;
+}
+.box22 {
+	font-size: 31px;
+	padding: 13px;
+	line-height: 50px;
+}
+.box3 {
+	clear: left;
+	position: absolute;
+	bottom: 30px;
+	text-align: left;
+	line-height: normal;
+	font-size: 31px;
+}
+.box4head {
+	font-size: 31px;
+}
+.space {
+	margin: 20px 0px;
+}
+.box4 {
+	position: absolute;
+	right: 100px;
+	bottom: 30px;
+	font-size: 16px;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+
+#img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	position: absolute;
+	top: 41px;
+	right: 42px;
+}
+.boxingimg {
+	position: absolute;
+	right: 100px;
+}
+.boxbottom {
+	width: 600px;
+	height: 480px;
+	border: 5px solid purple;
+	background-color: green;
+	margin-top: 20px;
+}
+
+.boxbottomhead {
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 10px;
+}
+.boxbottomcontent {
+	background-color: palegoldenrod;
+}
+.boxbottom1 {
+	float: left;
+	width: 294px;
+	height: 200px;
+	margin: 4px;
+}
+.content1 {
+	text-align: center;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 10px;
+	font-style: italic;
+	font-weight: normal;
+}
+.boxbottom2 {
+	float: right;
+	width: 280px;
+	height: 200px;
+	margin: 4px;
+}
+.boxbottom3 {
+	clear: right;
+	width: 596px;
+	height: 200px;
+	margin: 4px;
+}
+.head {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.divbox1 {
+	width: 200px;
+	font-size: 20px;
+}
+.divbox2 {
+	width: 100px;
+	font-size: 13px;
+}
